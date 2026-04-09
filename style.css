@@ -116,4 +116,31 @@ footer {
     border-top: 4px solid #ff6a5c; /* Accent border */
 }
 
+/* Navigation Bar Styling: Adds a modern and visually appealing design to the navbar */
+nav {
+    background: #222; /* Dark background for contrast */
+    padding: 1rem 0; /* Add spacing around the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+nav ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center the menu items */
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 1rem; /* Add spacing between menu items */
+}
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text for contrast */
+    font-size: 1.1rem; /* Slightly larger font size */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+nav ul li a:hover {
+    color: #ff6a5c; /* Accent color on hover */
+}
+
 
