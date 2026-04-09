@@ -7,24 +7,65 @@
     <link rel="stylesheet" href="style.css"> <!-- Links the external CSS file for styling -->
 </head>
 <body>
+    <!-- Header Section: This section introduces the portfolio owner with their name and profession. -->
     <header>
-        <h1>Betül Ön</h1>
-        <p>Web Designer</p>
+        <h1>Betül Ön</h1> <!-- The main heading displays the portfolio owner's name. -->
+        <p>Web Designer</p> <!-- A short description of the profession or title. -->
     </header>
+
+    <!-- Main Content Section: Contains all the portfolio content divided into subsections. -->
     <main>
-        <div>
-            <h2>About Me</h2>
-            <p>Hello! I'm Betül, a passionate web designer with experience in creating visually appealing and user-friendly websites.</p>
-            <h3>My Skills</h3>
+        <!-- About Me Section: Provides a brief introduction about the portfolio owner. -->
+        <section id="about">
+            <h2>About Me</h2> <!-- Section heading for About Me. -->
+            <p>Hello! I'm Betül, a passionate web designer with experience in creating visually appealing and user-friendly websites.</p> <!-- A short introduction paragraph. -->
+            <img src="images/witch.webp" alt="Profile Picture" style="width: 150px; border-radius: 50%;"> <!-- A profile picture with styling. -->
+        </section>
+
+        <!-- Skills Section: Highlights the skills of the portfolio owner. -->
+        <section id="skills">
+            <h3>My Skills</h3> <!-- Section heading for Skills. -->
             <ul>
-                <li id="html-skill">HTML</li>
-                <li class="css-skill">CSS</li>
-                <li id="javascript-skill">JavaScript</li>
-                <li class="css-skill">UI/UX Design</li>
+                <li id="html-skill">HTML</li> <!-- Skill: HTML -->
+                <li class="css-skill">CSS</li> <!-- Skill: CSS -->
+                <li id="javascript-skill">JavaScript</li> <!-- Skill: JavaScript -->
+                <li class="css-skill">UI/UX Design</li> <!-- Skill: UI/UX Design -->
             </ul>
-        </div>
-    </main>    
+        </section>
+
+        <!-- Portfolio Section: Displays the portfolio owner's work or projects. -->
+        <section id="portfolio">
+            <h2>My Work</h2> <!-- Section heading for Portfolio. -->
+            <p>Here are some of my projects:</p>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Project 1: YouTube Video</a></li> <!-- Link to a YouTube video project. -->
+                <li><a href="images/project2.jpg" target="_blank">Project 2: Image</a></li> <!-- Link to an image project. -->
+                <li><a href="https://example.com" target="_blank">Project 3: Website</a></li> <!-- Link to a website project. -->
+            </ul>
+        </section>
+
+        <!-- Contact Section: Provides a way for visitors to contact the portfolio owner. -->
+        <section id="contact">
+            <h2>Contact Me</h2> <!-- Section heading for Contact. -->
+            <p>Email: betul.on@fbu.edu.tr</p> <!-- Contact email address. -->
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required> <!-- Input field for name. -->
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required> <!-- Input field for email. -->
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea> <!-- Textarea for message. -->
+                <br>
+                <button type="submit">Send</button> <!-- Submit button for the form. -->
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section: Displays copyright information. -->
     <footer>
+        <p>&copy; 2026 Betül Ön. All rights reserved.</p> <!-- Copyright text. -->
     </footer>
 </body>
 </html>

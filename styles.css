@@ -1,0 +1,7 @@
+header {
+    background: #222; /* Dark background for contrast */
+    color: #fff; /* White text for readability */
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 4px solid #bd736d; /* Accent color */
+}

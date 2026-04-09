@@ -1,19 +1,119 @@
-
-#html-skill {
-    color: green;
+/* General Body Styling: Sets the overall font, background, and text color for the page. */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    background: #f9f9f9; /* Light neutral background */
+    color: #333; /* Dark text for contrast */
 }
 
-li {
-    color: pink;
+/* Header Styling: Creates a professional and minimalist header with a dark background and accent color. */
+header {
+    background: #222; /* Dark background for contrast */
+    color: #fff; /* White text for readability */
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 4px solid #ff6a5c; /* Accent color */
+}
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #ff6a5c; /* Accent color */
 }
 
-
-p {
-    color: aqua;
+/* Section Styling: Adds a clean and centered layout for each section with subtle shadows. */
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px; /* Center content and limit width */
+    background: #fff; /* Clean white background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+section h2, section h3 {
+    color: #222; /* Dark headings */
+    border-bottom: 2px solid #ff6a5c; /* Accent underline */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-.css-skill {
-    color: blue;
+/* About Me Image Styling: Styles the profile picture with a circular shape and accent border. */
+#about img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #ff6a5c; /* Accent border */
+}
+
+/* Skills Section Styling: Highlights each skill with a subtle background and accent border. */
+ul li {
+    background: #f4f4f4; /* Subtle background */
+    color: #222; /* Dark text */
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-left: 4px solid #ff6a5c; /* Accent border */
+}
+
+/* Portfolio Links Styling: Styles the links to projects with an accent color and hover effect. */
+#portfolio ul li a {
+    color: #ff6a5c; /* Accent color */
+    text-decoration: none;
+    font-weight: bold;
+}
+#portfolio ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form Styling: Creates a clean and user-friendly form layout. */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+form input, form textarea, form button {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #f9f9f9;
+}
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #ff6a5c; /* Accent color */
+}
+form button {
+    background: #ff6a5c; /* Accent color */
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+    border: none;
+}
+form button:hover {
+    background: #e55a4c; /* Darker accent on hover */
+}
+
+/* Footer Styling: Creates a minimalist footer with a dark background and accent border. */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222; /* Dark background */
+    color: #fff; /* White text */
+    font-size: 0.9rem;
+    border-top: 4px solid #ff6a5c; /* Accent border */
 }
 
 
