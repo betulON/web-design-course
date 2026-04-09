@@ -5,3 +5,23 @@ header {
     text-align: center;
     border-bottom: 4px solid #bd736d; /* Accent color */
 }
+
+/* Section Styling: Adds a clean and centered layout for each section with subtle shadows. */
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px; /* Center content and limit width */
+    background: #fff; /* Clean white background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* About Me Image Styling: Styles the profile picture with a circular shape and accent border. */
+#about img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 20%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
